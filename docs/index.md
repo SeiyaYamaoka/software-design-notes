@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 学習を始める
-      link: /architecture/
+      link: /guide/roadmap
     - theme: alt
       text: GitHubを見る
       link: https://github.com/SeiyaYamaoka/software-design-notes
@@ -37,3 +37,9 @@ AIに作成させた文章をそのまま信用するのではなく、
 3. メリットとデメリットを把握する
 4. 類似手法との違いを整理する
 5. 実務で使ったら事例を追記する
+
+## 学習ロードマップ
+
+初めて学ぶ場合は、[ソフトウェア設計 学習ロードマップ](./guide/roadmap)から読み始めてください。
+
+設計の目的と判断基準を理解してから、設計原則、アーキテクチャ、デザインパターン、データベース設計、テスト設計へ進めます。

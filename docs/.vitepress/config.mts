@@ -13,6 +13,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: "ホーム", link: "/" },
+      { text: "学習ロードマップ", link: "/guide/roadmap" },
       { text: "アーキテクチャ", link: "/architecture/" },
       { text: "設計原則", link: "/principles/" },
       { text: "パターン", link: "/patterns/" },
@@ -23,7 +24,33 @@ export default defineConfig({
     sidebar: [
       {
         text: "はじめに",
-        items: [{ text: "このサイトについて", link: "/" }],
+        items: [
+          { text: "このサイトについて", link: "/" },
+          { text: "学習ロードマップ", link: "/guide/roadmap" },
+        ],
+      },
+      {
+        text: "設計の基礎",
+        collapsed: false,
+        items: [
+          { text: "ソフトウェア設計とは", link: "/guide/software-design" },
+          {
+            text: "品質特性と設計判断",
+            link: "/guide/quality-attributes",
+          },
+          {
+            text: "分割と境界",
+            link: "/guide/decomposition-and-boundaries",
+          },
+          {
+            text: "凝集度と結合度",
+            link: "/guide/cohesion-and-coupling",
+          },
+          {
+            text: "依存関係の設計",
+            link: "/guide/dependency-management",
+          },
+        ],
       },
       {
         text: "アーキテクチャ",
