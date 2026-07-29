@@ -11,7 +11,7 @@ hero:
       link: /architecture/
     - theme: alt
       text: GitHubを見る
-      link: https://github.com/ユーザー名/software-design-notes
+      link: https://github.com/SeiyaYamaoka/software-design-notes
 
 features:
   - title: 広く把握する
